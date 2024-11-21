@@ -1,13 +1,13 @@
 body {
-    background-color: orange;
-    color: rgb(233, 211, 172);
+    background-color: rgb(247, 166, 18);
+    color: rgb(9, 48, 133);
     font-family: Arial, sans-serif;
 }
 
 header {
     font-family: Arial, sans-serif; 
     font-size: 46px; 
-    color: brown; 
+    color: rgb(46, 138, 214); 
     text-align: center; 
     margin: 20px 0; 
     font-weight: bold; 
@@ -15,14 +15,14 @@ header {
 }
 
 h1, h2, h3, p, a, span {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(2, 2, 2, 0.945);
     font-family: Arial, sans-serif;
     margin: 15px 0;
     font-size: 36px;
 }
 
 section {
-    background: rgb(150, 89, 89);
+    background: rgb(231, 62, 62);
     padding-bottom: 40px;
     padding-top: 40px;
     display: flex;
