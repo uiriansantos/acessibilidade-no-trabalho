@@ -1,0 +1,67 @@
+body {
+    background-color: orange;
+    color: rgb(233, 211, 172);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: Arial, sans-serif; 
+    font-size: 46px; 
+    color: brown; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px white;
+}
+
+h1, h2, h3, p, a, span {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    margin: 15px 0;
+    font-size: 36px;
+}
+
+section {
+    background: rgb(150, 89, 89);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto; 
+    gap: 10px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    width: 100%;  
+}
+
+.categoria-video::-webkit-scrollbar {
+    height: 8px;
+}
+
+.categoria-video::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.categoria-video::-webkit-scrollbar-thumb {
+    background: #888; /
+}
+
+.categoria-video::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.chamada-texto {
+    text-align: center;  
+    margin: 0 auto;     
+    max-width: 800px;    
+}  
+
