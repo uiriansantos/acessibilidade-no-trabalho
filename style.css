@@ -1,28 +1,22 @@
-/* Estilo Global */
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9; /* Fundo claro */
-    font-family: 'Roboto', sans-serif; /* Fonte moderna */
-    display: flex; /* Flexbox para centralizar */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura da página */
-    box-sizing: border-box; /* Inclui bordas no tamanho total */
+    background-color: #f4f4f9; 
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box; 
 }
 
-/* Container Principal */
 .pagina {
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
-    border: 10px solid #2a71d0; /* Borda azul */
-    border-radius: 8px; /* Cantos arredondados */
+    border: 10px solid #2a71d0; 
+    border-radius: 8px; 
     max-width: 1200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Cabeçalho */
+
 header {
     font-size: 32px;
     color: #2a71d0;
@@ -32,7 +26,7 @@ header {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos e Parágrafos */
+
 h1, h2 {
     color: #444;
     margin: 15px 0;
@@ -54,10 +48,9 @@ p {
     color: #555;
 }
 
-/* Seções */
 section {
-    background: #ffffff; /* Fundo branco */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background: #ffffff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     margin: 20px auto;
     padding: 20px;
     max-width: 1200px;
@@ -65,25 +58,25 @@ section {
     text-align: center;
 }
 
-/* Vídeos */
+
 iframe {
-    border-radius: 8px; /* Cantos arredondados */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra no vídeo */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
 }
 
-/* Categoria de Vídeos */
+
 .categoria-video {
     display: flex;
-    flex-direction: column; /* Organiza em cascata vertical */
     gap: 15px;
-    justify-content: center;
-    align-items: center;
+    overflow-x: auto; 
     padding: 20px;
-    width: 100%;
+    scroll-snap-type: x mandatory; 
+    justify-content: start; 
+    align-items: center;
 }
 
-/* Imagens de Vídeos */
+
 .categoria-video img {
     height: 200px;
     border-radius: 8px;
@@ -92,10 +85,10 @@ iframe {
 }
 
 .categoria-video img:hover {
-    transform: scale(1.05); /* Zoom ao passar o mouse */
+    transform: scale(1.05); 
 }
 
-/* Barra de Rolagem */
+
 .categoria-video::-webkit-scrollbar {
     height: 8px;
 }
@@ -114,14 +107,13 @@ iframe {
     background: #555;
 }
 
-/* Texto Chamativo */
+
 .chamada-texto {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
