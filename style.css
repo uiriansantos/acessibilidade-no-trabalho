@@ -1,31 +1,28 @@
+/* Estilo Global */
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-   
-    font-family: 'Roboto', sans-serif;
-    
-    display: flex;
- 
-    justify-content: center;
-    
-    align-items: center;
-   
-    height: 100vh;
- 
-    box-sizing: border-box;
-    
+    background-color: #f4f4f9; /* Fundo claro */
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+    display: flex; /* Flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da página */
+    box-sizing: border-box; /* Inclui bordas no tamanho total */
 }
 
+/* Container Principal */
 .pagina {
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
-    border: 10px solid #2a71d0; 
-    border-radius: 8px; 
-    max-width: 1200px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 10px solid #2a71d0; /* Borda azul */
+    border-radius: 8px; /* Cantos arredondados */
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
 
+/* Cabeçalho */
 header {
     font-size: 32px;
     color: #2a71d0;
@@ -35,9 +32,8 @@ header {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
-h1,
-h2 {
+/* Títulos e Parágrafos */
+h1, h2 {
     color: #444;
     margin: 15px 0;
     text-align: center;
@@ -58,37 +54,36 @@ p {
     color: #555;
 }
 
-
+/* Seções */
 section {
-    background: #ffffff;/ box-shadow 0 2px 8px rgba(0, 0, 0, 0.1);/ margin 20px auto;
+    background: #ffffff; /* Fundo branco */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin: 20px auto;
     padding: 20px;
     max-width: 1200px;
     border-radius: 8px;
     text-align: center;
 }
 
-
+/* Vídeos */
 iframe {
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);/ margin 20px auto;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra no vídeo */
+    margin: 20px auto;
 }
 
-
+/* Categoria de Vídeos */
 .categoria-video {
     display: flex;
+    flex-direction: column; /* Organiza em cascata vertical */
     gap: 15px;
-    overflow-x: auto;
-    padding: 20px;
-    scroll-snap-type: x mandatory;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    width: 100%;
 }
 
-.categoria-video a {
-    text-decoration: none;
-    scroll-snap-align: start;
-}
-
+/* Imagens de Vídeos */
 .categoria-video img {
     height: 200px;
     border-radius: 8px;
@@ -97,10 +92,10 @@ iframe {
 }
 
 .categoria-video img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Zoom ao passar o mouse */
 }
 
-
+/* Barra de Rolagem */
 .categoria-video::-webkit-scrollbar {
     height: 8px;
 }
@@ -119,11 +114,14 @@ iframe {
     background: #555;
 }
 
+/* Texto Chamativo */
 .chamada-texto {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
+
+/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
