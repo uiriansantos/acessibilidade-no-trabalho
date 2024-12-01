@@ -1,16 +1,25 @@
-
 body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    color: #2e2e2e; 
+   
     font-family: 'Roboto', sans-serif;
-    border: 10px solid #2a71d0; 
-    box-sizing: border-box; 
+    
+    display: flex;
+ 
+    justify-content: center;
+    
+    align-items: center;
+   
+    height: 100vh;
+ 
+    box-sizing: border-box;
+    
+}
 
 header {
     font-size: 32px;
-    color: #2a71d0; 
+    color: #2a71d0;
     text-align: center;
     margin: 20px 0;
     font-weight: bold;
@@ -18,7 +27,8 @@ header {
 }
 
 
-h1, h2 {
+h1,
+h2 {
     color: #444;
     margin: 15px 0;
     text-align: center;
@@ -41,9 +51,7 @@ p {
 
 
 section {
-    background: #ffffff; /
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /
-    margin: 20px auto;
+    background: #ffffff;/ box-shadow 0 2px 8px rgba(0, 0, 0, 0.1);/ margin 20px auto;
     padding: 20px;
     max-width: 1200px;
     border-radius: 8px;
@@ -53,8 +61,7 @@ section {
 
 iframe {
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /
-    margin: 20px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);/ margin 20px auto;
 }
 
 
@@ -81,7 +88,7 @@ iframe {
 }
 
 .categoria-video img:hover {
-    transform: scale(1.05); /* Efeito de zoom */
+    transform: scale(1.05);
 }
 
 
@@ -103,14 +110,11 @@ iframe {
     background: #555;
 }
 
-/* Chamada de Texto */
 .chamada-texto {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
-
-/* Rodapé */
 footer {
     text-align: center;
     padding: 10px;
